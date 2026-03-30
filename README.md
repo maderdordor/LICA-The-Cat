@@ -225,6 +225,22 @@ Adjust the playback speed, exaggeration (amplitude) and posture (lean forwards/b
 
 ---
 
+## Documentation & Figures
+
+### Figure 1: Gesture Design Parameter Table
+![Gesture Design Parameter Table](figures/figure1_gesture_table.png)
+
+### Figure 2: Servo Performance Analysis
+![Servo Performance Analysis](figures/figure2_servo_performance.png)
+
+### Figure 3: Gesture Recognition Training
+![Gesture Recognition Training](figures/figure3_learning_curves.png)
+
+### Figure 4: Gesture Trajectory Validation
+![Gesture Trajectory Validation](figures/figure4_trajectory_fidelity.png)
+
+---
+
 ## About
 
 Public Repo for the Cornell LICA Robot
