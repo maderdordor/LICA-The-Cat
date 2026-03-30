@@ -1,4 +1,4 @@
-# LICA - Social Robotics Platform
+# <img src="BlossomApp/blossom_logo.png" width="60" height="60" /> LICA - Social Robotics Platform
 
 <p align="center">
   <img src="https://img.shields.io/badge/Type-Open--Source%20Robotics-green?style=flat-square&logo=robotics&logoColor=white"/>
@@ -6,6 +6,10 @@
   <img src="https://img.shields.io/badge/Python-3.x-yellow?style=flat-square&logo=python&logoColor=white"/>
   <img src="https://img.shields.io/badge/Platform-Linux%20%7C%20Raspberry%20Pi-orange?style=flat-square&logo=raspberry-pi&logoColor=white"/>
   <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square"/>
+</p>
+
+<p align="center">
+  <img src="assembly/full_assembly.jpg" width="600" alt="LICA Robot Assembly"/>
 </p>
 
 > **LICA** is an open-source social robotics platform designed for researchers, developers, and robotics enthusiasts. Built with a focus on accessibility and customization, LICA enables anyone to create, build, and program their own interactive social robots.
@@ -27,31 +31,39 @@ LICA is a next-generation social robotics platform that combines open-hardware p
 
 ## Features
 
-### 🤖 Core Robot Control
+### Core Robot Control
 
-- **CLI Interface** — Command-line control for gesture sequences and robot behaviors
-- **Web Dashboard** — Intuitive web-based controlpanel accessible via localhost or network IP (port 8000)
-- **REST API** — Programmatic control for integration with other systems
-- **Real-time Monitoring** — Live status updates and diagnostics
+| Feature | Description |
+|---------|-------------|
+| **CLI Interface** | Command-line control for gesture sequences and robot behaviors |
+| **Web Dashboard** | Intuitive web-based control panel accessible via localhost or network IP (port 8000) |
+| **REST API** | Programmatic control for integration with other systems |
+| **Real-time Monitoring** | Live status updates and diagnostics |
 
-### 📱 Mobile Integration
+### Mobile Integration
 
-- **Motion Control** — Control robot orientation (pitch, yaw, roll) using smartphone sensors
-- **Gesture Mapping** — Map phone movements to robot actions
-- **Remote Operation** — Control your robot from anywhere
+| Feature | Description |
+|---------|-------------|
+| **Motion Control** | Control robot orientation (pitch, yaw, roll) using smartphone sensors |
+| **Gesture Mapping** | Map phone movements to robot actions |
+| **Remote Operation** | Control your robot from anywhere |
 
-### 🎬 Content Creation
+### Content Creation
 
-- **Visual Choreographer** — Blockly-based tool for creating complex gesture sequences
-- **Reaction System** — Build robots that respond to videos and audio
-- **Timeline Editor** — Fine-tune timing and synchronization
+| Feature | Description |
+|---------|-------------|
+| **Visual Choreographer** | Blockly-based tool for creating complex gesture sequences |
+| **Reaction System** | Build robots that respond to videos and audio |
+| **Timeline Editor** | Fine-tune timing and synchronization |
 
-### 🔧 Technical Features
+### Technical Features
 
-- **Multi-threading Support** — Smooth concurrent operations
-- **Gesture Library** — Pre-built movements and expressions
-- **Adjustable Parameters** — Speed, amplitude, and posture controls
-- **Sequence Programming** — Create complex behavioral patterns
+| Feature | Description |
+|---------|-------------|
+| **Multi-threading Support** | Smooth concurrent operations |
+| **Gesture Library** | Pre-built movements and expressions |
+| **Adjustable Parameters** | Speed, amplitude, and posture controls |
+| **Sequence Programming** | Create complex behavioral patterns |
 
 ---
 
@@ -65,6 +77,31 @@ LICA is a next-generation social robotics platform that combines open-hardware p
 | **Hardware** | Raspberry Pi / Arduino |
 | **Communication** | WebSocket, REST API |
 | **Motion Planning** | Custom Gesture System |
+
+---
+
+## Hardware Assembly
+
+<p align="center">
+  <img src="assembly/IMG_0623.jpg" width="400" alt="LICA Robot"/>
+  <img src="assembly/cable_diagram.png" width="400" alt="Cable Diagram"/>
+</p>
+
+### Components Overview
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│                    LICA Robot Assembly                       │
+├─────────────────────────────────────────────────────────────┤
+│  ┌─────────┐    ┌─────────┐    ┌─────────┐    ┌─────────┐  │
+│  │  Head   │    │  Ears   │    │  Tower  │    │  Base   │  │
+│  │  Unit   │◄──►│  Unit   │◄──►│  Unit   │◄──►│  Unit   │  │
+│  └─────────┘    └─────────┘    └─────────┘    └─────────┘  │
+│       │              │              │              │        │
+│       └──────────────┴──────────────┴──────────────┘        │
+│                         Motors                               │
+└─────────────────────────────────────────────────────────────┘
+```
 
 ---
 
@@ -93,10 +130,12 @@ python3 -m src.web_server
 
 ### Hardware Requirements
 
-- Single-board computer (Raspberry Pi 3/4 recommended)
-- Servo motors (MG996R or equivalent)
-- Power supply (5V, 3A minimum)
-- Structural components (3D printed or laser-cut)
+| Component | Specification |
+|-----------|---------------|
+| **SBC** | Raspberry Pi 3/4 recommended |
+| **Motors** | MG996R or equivalent servo motors |
+| **Power** | 5V, 3A minimum |
+| **Structure** | 3D printed or laser-cut components |
 
 ---
 
@@ -105,12 +144,16 @@ python3 -m src.web_server
 ```
 LICA/
 ├── src/                    # Source code
-│   ├── core/               # Core robot control
+│   ├── core/              # Core robot control
 │   ├── web_server/        # Web interface
 │   └── api/               # REST API endpoints
 ├── blossom_web/           # Web dashboard
-├── blossom_blockly/       # Visual choreographer
-├── assembly/              # Hardware designs
+├── blossom_blockly/       # Visual choreographer (Blockly)
+├── blossom_app/           # Mobile application (iOS/Android)
+├── assembly/              # Hardware designs & assembly guides
+│   ├── gluing/           # Gluing instructions
+│   ├── motor/            # Motor assembly
+│   └── *.png/*.jpg       # Assembly diagrams
 ├── docs/                  # Documentation
 └── examples/              # Sample gestures and sequences
 ```
@@ -157,11 +200,21 @@ We welcome contributions from the community! Please see our [Contributing Guidel
 
 ### How to Contribute
 
+```
 1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
+      │
+      ▼
+2. Create a feature branch
+      │
+      ▼
+3. Commit your changes
+      │
+      ▼
+4. Push to the branch
+      │
+      ▼
 5. Open a Pull Request
+```
 
 ---
 
@@ -173,6 +226,10 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 
 ## Acknowledgments
 
+<p align="center">
+  <img src="BlossomApp/blossom_logo.png" width="100" alt="Blossom Logo"/>
+</p>
+
 - Inspired by the [Cornell Blossom Robot](https://github.com/omnimasudo/blossom-public) project
 - Built by the robotics community, for the robotics community
 - Special thanks to all contributors
@@ -181,4 +238,16 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 
 <p align="center">
   <strong>LICA</strong> — Building the future of social robotics, one robot at a time.
+</p>
+
+<p align="center">
+  <a href="https://github.com/maderdordor/LICA/stargazers">
+    <img src="https://img.shields.io/github/stars/maderdordor/LICA?style=social" alt="Stars"/>
+  </a>
+  <a href="https://github.com/maderdordor/LICA/network/members">
+    <img src="https://img.shields.io/github/forks/maderdordor/LICA?style=social" alt="Forks"/>
+  </a>
+  <a href="https://github.com/maderdordor/LICA/issues">
+    <img src="https://img.shields.io/github/issues/maderdordor/LICA" alt="Issues"/>
+  </a>
 </p>
