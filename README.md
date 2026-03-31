@@ -20,6 +20,37 @@
 **LICA (Low-cost Interactive Cognitive Agent)** The robot’s internal system consists of modular electronics, including a microcontroller, motor drivers, and simple wiring connections that are intentionally exposed to emphasize transparency and educational value. Flexible cables and string-based actuation systems help drive the upper expressive elements (ears), enabling lifelike motion with minimal mechanical complexity. Similar to Blossom, LICA adopts natural materials like wood to create a more approachable and emotionally comfortable interaction, especially for children with autism.
 
 ---
+## 🌟 Florida Session — LICA as a Learning Companion for Children with Autism
+
+Earlier this year, LICA was deployed in a hands-on educational session in Florida, where children with autism spectrum disorder (ASD) participated in a *robot customization workshop* designed to encourage creativity, social engagement, and emotional expression.
+
+Children were invited to personalize their own LICA robot using craft materials — adding eyes, ears, hats, accessories, and fabric decorations — transforming each robot into a unique companion. This participatory design approach helped lower interaction barriers and fostered a sense of ownership and emotional connection with the robot.
+
+### What We Observed
+
+- *Increased engagement*: Children remained focused and enthusiastic throughout the session, interacting with both the robot and peers.
+- *Creative expression*: Each robot became a reflection of its builder's personality, with unique decorations ranging from glasses and bow ties to colorful foam shapes.
+- *Social interaction*: The shared activity naturally prompted conversation and collaboration between participants.
+- *Comfort with technology*: The soft, fabric-based body of LICA — combined with its non-threatening appearance — made it approachable even for children who are typically sensitive to robotic or electronic devices.
+
+> "The goal was never just to teach robotics — it was to create a moment where a child feels seen, heard, and connected."
+
+### Why LICA Works for ASD Contexts
+
+LICA's design philosophy aligns closely with therapeutic and educational principles used in autism support:
+
+| Design Choice | Benefit for ASD |
+|---|---|
+| Soft fabric body | Reduces sensory anxiety compared to hard plastic robots |
+| Natural wood & textile materials | Creates a warm, non-clinical aesthetic |
+| Customizable appearance | Encourages personal connection and emotional investment |
+| Simple, expressive gestures | Supports non-verbal communication and emotional mirroring |
+| Low cost (~$200) | Enables deployment in schools and therapy centers at scale |
+
+This session is part of a broader initiative to bring open-source social robotics into *inclusive education environments*, making LICA not just a research platform, but a genuine companion for children who experience the world differently.
+
+📸 Photos from the Florida workshop session.
+![flo](https://github.com/user-attachments/assets/ea6892ff-f6c4-473d-b8a0-ccc77bce7e53)
 
 ## Project Showcase
 
