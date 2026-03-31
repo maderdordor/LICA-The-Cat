@@ -14,6 +14,32 @@
   <img src="https://img.shields.io/github/stars/maderdordor/LICA?style=social" alt="Stars"/>
 </p>
 
+---
+
+## 🚀 Overview
+**LICA (Low-cost Interactive Cognitive Agent)** adalah platform robotika sosial yang dirancang untuk menjembatani kesenjangan antara biaya tinggi dan ekspresivitas robot. Proyek ini memungkinkan peneliti dan pengembang untuk merakit robot interaktif yang mampu melakukan gerakan gestur kompleks hanya dengan biaya material sekitar **$200**. Dengan fokus pada *Social Human-Robot Interaction (sHRI)*, LICA menyediakan ekosistem lengkap mulai dari desain mekanik 3D hingga kontrol perangkat lunak berbasis Python.
+
+---
+
+## 📺 Project Showcase
+
+<table width="100%">
+  <tr>
+    <td width="50%" align="center">
+      <strong>Robot Preview</strong><br/><br/>
+      <img src="media/index.png" width="100%" alt="LICA Static Preview"/>
+    </td>
+    <td width="50%" align="center">
+      <strong>Movement Demo</strong><br/><br/>
+      <video src="media/index.mp4" width="100%" controls muted autoplay loop>
+        Your browser does not support the video tag.
+      </video>
+    </td>
+  </tr>
+</table>
+
+---
+
 LICA is a handcrafted, open-hardware social robot designed for researchers and makers. Unlike commercial social robots costing $10,000+, LICA delivers comparable gesture expressiveness and interaction capabilities at a fraction of the cost. Originally developed at Cornell University, LICA provides full access to mechanical designs, electronics schematics, and software—all under MIT license.
 
 For questions, issues, or collaboration inquiries: [open an issue](https://github.com/maderdordor/LICA/issues) or [discussions](https://github.com/maderdordor/LICA/discussions).
