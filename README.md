@@ -212,10 +212,6 @@ python start.py -i 192.168.1.100
 ```
 
 
-### Mobile App
-
-Install the LICA mobile app from [LicaApp/](LicaApp/) for iOS/Android. Control robot orientation using phone motion sensors, create custom gestures, and monitor performance remotely.
-
 ---
 
 ## Demo Screenshots
