@@ -26,6 +26,12 @@ Earlier this year, LICA was deployed in a hands-on educational session in Florid
 
 Children were invited to personalize their own LICA robot using craft materials — adding eyes, ears, hats, accessories, and fabric decorations — transforming each robot into a unique companion. This participatory design approach helped lower interaction barriers and fostered a sense of ownership and emotional connection with the robot.
 
+This session is part of a broader initiative to bring open-source social robotics into *inclusive education environments*, making LICA not just a research platform, but a genuine companion for children who experience the world differently.
+
+Photos from the Florida workshop session.
+![flo](https://github.com/user-attachments/assets/ea6892ff-f6c4-473d-b8a0-ccc77bce7e53)
+
+
 ## LICA Roadmap — Where We're Headed
 
 ### Overview
@@ -90,10 +96,6 @@ LICA's design philosophy aligns closely with therapeutic and educational princip
 | Simple, expressive gestures | Supports non-verbal communication and emotional mirroring |
 | Low cost (~$200) | Enables deployment in schools and therapy centers at scale |
 
-This session is part of a broader initiative to bring open-source social robotics into *inclusive education environments*, making LICA not just a research platform, but a genuine companion for children who experience the world differently.
-
-Photos from the Florida workshop session.
-![flo](https://github.com/user-attachments/assets/ea6892ff-f6c4-473d-b8a0-ccc77bce7e53)
 
 ## Project Showcase
 
