@@ -20,7 +20,7 @@
 **LICA (Low-cost Interactive Cognitive Agent)** The robot’s internal system consists of modular electronics, including a microcontroller, motor drivers, and simple wiring connections that are intentionally exposed to emphasize transparency and educational value. Flexible cables and string-based actuation systems help drive the upper expressive elements (ears), enabling lifelike motion with minimal mechanical complexity. Similar to Blossom, LICA adopts natural materials like wood to create a more approachable and emotionally comfortable interaction, especially for children with autism.
 
 ---
-## 🌟 Florida Session — LICA as a Learning Companion for Children with Autism
+## Florida Session — LICA as a Learning Companion for Children with Autism
 
 Earlier this year, LICA was deployed in a hands-on educational session in Florida, where children with autism spectrum disorder (ASD) participated in a *robot customization workshop* designed to encourage creativity, social engagement, and emotional expression.
 
