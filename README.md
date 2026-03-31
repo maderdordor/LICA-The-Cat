@@ -143,7 +143,7 @@ Our quantitative evaluation demonstrates LICA's performance across key metrics:
 | Setup Time | 4 hours | 8 hours | **50% faster build** |
 | Total Cost | ~$200 | ~$180 | Similar cost |
 
-Full experimental data available in [/docs/experiments/](docs/experiments/)
+Full experimental data available by request
 
 ---
 
