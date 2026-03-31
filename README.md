@@ -1,42 +1,33 @@
 # LICA — Open-Source Social Robotics Platform
 
 <p align="center">
-  <img src="figures/figure4_trajectory_fidelity.png" width="650"/>
+  <img src="figures/figure4_trajectory_fidelity.png" width="650" alt="LICA Trajectory Fidelity"/>
   <br/>
-  <strong>LICA — Build expressive social robots for $200 with open-source hardware and software</strong>
+  <strong>Build expressive social robots for $200 with open-source hardware and software.</strong>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3.5+-yellow?style=flat-square&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/License-MIT-blue?style=flat-square"/>
-  <img src="https://img.shields.io/badge/Platform-Raspberry%20Pi%20%7C%20Linux-green?style=flat-square&logo=raspberry-pi&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Python-3.5+-yellow?style=flat-square&logo=python&logoColor=white" alt="Python Version"/>
+  <img src="https://img.shields.io/badge/License-MIT-blue?style=flat-square" alt="License"/>
+  <img src="https://img.shields.io/badge/Platform-Raspberry%20Pi%20%7C%20Linux-green?style=flat-square&logo=raspberry-pi&logoColor=white" alt="Platform"/>
+  <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square" alt="Status"/>
   <img src="https://img.shields.io/github/stars/maderdordor/LICA?style=social" alt="Stars"/>
 </p>
 
 ---
 
 ## 🚀 Overview
-**LICA (Low-cost Interactive Cognitive Agent)** adalah platform robotika sosial yang dirancang untuk menjembatani kesenjangan antara biaya tinggi dan ekspresivitas robot. Proyek ini memungkinkan peneliti dan pengembang untuk merakit robot interaktif yang mampu melakukan gerakan gestur kompleks hanya dengan biaya material sekitar **$200**. Dengan fokus pada *Social Human-Robot Interaction (sHRI)*, LICA menyediakan ekosistem lengkap mulai dari desain mekanik 3D hingga kontrol perangkat lunak berbasis Python.
+**LICA (Low-cost Interactive Cognitive Agent)** adalah platform robotika sosial yang dirancang untuk menjembatani kesenjangan antara biaya tinggi dan ekspresivitas robot. Proyek ini memungkinkan peneliti dan pengembang untuk merakit robot interaktif yang mampu melakukan gerakan gestur kompleks hanya dengan biaya material sekitar **$200**. 
+
+Dengan fokus pada *Social Human-Robot Interaction (sHRI)*, LICA menyediakan ekosistem lengkap mulai dari desain mekanik 3D hingga kontrol perangkat lunak berbasis Python.
 
 ---
 
 ## 📺 Project Showcase
 
-<table width="100%">
-  <tr>
-    <td width="50%" align="center">
-      <strong>Robot Preview</strong><br/><br/>
-      <img src="media/index.png" width="100%" alt="LICA Static Preview"/>
-    </td>
-    <td width="50%" align="center">
-      <strong>Movement Demo</strong><br/><br/>
-      <video src="https://github.com/maderdordor/LICA/raw/main/media/index.mp4" width="100%" controls muted autoplay loop>
-        Your browser does not support the video tag.
-      </video>
-    </td>
-  </tr>
-</table>
+| **Robot Preview** | **Movement Demo** |
+| :---: | :---: |
+| <img src="media/index.png" width="100%" alt="LICA Static Preview"/> | <video src="https://github.com/user-attachments/assets/def08111-954f-44f8-9497-efe1bd500cbc" width="100%" controls muted autoplay loop></video> |
 
 ---
 
