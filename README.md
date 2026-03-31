@@ -25,20 +25,9 @@ Dengan fokus pada *Social Human-Robot Interaction (sHRI)*, LICA menyediakan ekos
 
 ## 📺 Project Showcase
 
-<table width="100%">
-  <tr>
-    <td width="50%" align="center">
-      <strong>Robot Preview</strong><br/><br/>
-      <img src="media/index.png" width="100%" alt="LICA Static Preview"/>
-    </td>
-    <td width="50%" align="center">
-      <strong>Movement Demo</strong><br/><br/>
-      <video src="media/index.1.mp4" width="100%" controls muted autoplay loop>
-        Your browser does not support the video tag.
-      </video>
-    </td>
-  </tr>
-</table>
+| **Robot Preview** | **Movement Demo** |
+| :---: | :---: |
+| <img src="media/index.png" width="100%" alt="LICA Static Preview"/> | <video src="https://github.com/user-attachments/assets/def08111-954f-44f8-9497-efe1bd500cbc" width="100%" controls muted autoplay loop></video> |
 
 ---
 
