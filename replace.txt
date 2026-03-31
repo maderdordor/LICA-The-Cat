@@ -1,0 +1,10 @@
+msgtn==>omnimasudo
+hrc2==>omnimasudo
+guyhoffman==>omnimasudo
+TheMichaelHu==>omnimasudo
+dependabot[bot]==>omnimasudo
+msgtn@*==>decimasudo@gmail.com
+hrc2@*==>decimasudo@gmail.com
+guyhoffman@*==>decimasudo@gmail.com
+TheMichaelHu@*==>decimasudo@gmail.com
+dependabot[bot]@*==>decimasudo@gmail.com
