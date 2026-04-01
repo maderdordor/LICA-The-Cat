@@ -1,4 +1,5 @@
 https://x.com/LicaTheCat </br>
+Contract Address : J7346cta78h6FaHeQaUREeyi33p2kKMD1WpMJgHgpump
 # LICA — Learning Companion for Children with Autism (Open-Source Social Robotics Platform)
 
 <p align="center">
